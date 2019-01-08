@@ -5,7 +5,7 @@ From: continuumio/miniconda3
 exec /opt/conda/bin/python "$@"
 
 %labels
-maintainer vsochat@stanford.edu
+maintainer ynanyam@iastate.edu
 
 %post
 apt-get update && apt-get install -y git
